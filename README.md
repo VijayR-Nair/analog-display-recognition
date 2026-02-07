@@ -1,2 +1,38 @@
-# analog-display-recognition
-Computer vision and deep learning project using ESP32-CAM to automate analog meter reading. Uses Faster R-CNN, OpenCV, and a custom geometric algorithm to compute accurate real-time measurements with GUI display.
+# Analog Display Recognition System
+
+Computer vision and deep learning system to convert real-time analog meter readings into digital values using ESP32-CAM, TensorFlow, and OpenCV.
+
+---
+
+## Overview
+This project automates the reading of analog meters by detecting the needle, zero markings, and dial center from live camera frames and computing accurate measurements using a geometry-based algorithm.
+
+---
+
+## Tech Stack
+- Python
+- TensorFlow (Faster R-CNN)
+- OpenCV
+- Tkinter (GUI)
+- ESP32-CAM
+
+---
+
+## How it Works
+1. ESP32-CAM streams live images
+2. Deep learning model detects meter components
+3. Geometry algorithm computes the value
+4. Result is displayed on a GUI in real time
+
+---
+
+## Results
+- Accuracy: >97%
+- Works in real time
+- Robust to fast needle movement
+
+---
+
+## Notes
+- Trained model and dataset are not included
+- Update model paths in `main_adrs.py` before running
