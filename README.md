@@ -18,6 +18,9 @@ This project automates the reading of analog meters by detecting the needle, zer
 
 ---
 
+How analogue meter points detected..
+!
+
 3D model to mount the hardware setup (Modelled using Solidworks)
 ![Mount Design](3D_model_setup.png)
 
