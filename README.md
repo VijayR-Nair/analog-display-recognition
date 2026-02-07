@@ -39,7 +39,7 @@ How analogue meter points detected..
 
 How angle detection works...
 
-![AngleDetection]("Angle Detection.png")
+![AngleDetection](Angle_Detection.png)
 
 3D model to mount the hardware setup (Modelled using Solidworks)
 ![Mount Design](3D_model_setup.png)
