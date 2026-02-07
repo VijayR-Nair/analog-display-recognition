@@ -18,13 +18,6 @@ This project automates the reading of analog meters by detecting the needle, zer
 
 ---
 
-How analogue meter points detected..
-
-![Detectionworking](Detected.png)
-
-3D model to mount the hardware setup (Modelled using Solidworks)
-![Mount Design](3D_model_setup.png)
-
 ## How it Works
 1. ESP32-CAM streams live images
 2. Deep learning model detects meter components
@@ -37,6 +30,19 @@ How analogue meter points detected..
 - Accuracy: >97%
 - Works in real time
 - Robust to fast needle movement
+
+---
+
+How analogue meter points detected..
+
+![Detectionworking](Detected.png)
+
+How angle detection works...
+
+![AngleDetection](Angle Detection.png)
+
+3D model to mount the hardware setup (Modelled using Solidworks)
+![Mount Design](3D_model_setup.png)
 
 ---
 
