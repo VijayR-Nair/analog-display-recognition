@@ -18,6 +18,8 @@ This project automates the reading of analog meters by detecting the needle, zer
 
 ---
 
+![Mount Design](3D_Model.png)
+
 ## How it Works
 1. ESP32-CAM streams live images
 2. Deep learning model detects meter components
